@@ -1,3 +1,3 @@
 from googletrans import Translator
 
-print("BONJOUR!")
+print("BONJOUR me amis!")
