@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D3B192693BD4300C89690 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 180D3B182693BD4300C89690 /* Roboto */; };
+		180D3B1B2693BFDE00C89690 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180D3B1A2693BEE300C89690 /* Roboto-Black.ttf */; };
+		18F9258E2691619C00EFDCF6 /* frenchinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9258D2691619C00EFDCF6 /* frenchinatorApp.swift */; };
+		18F925902691619C00EFDCF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9258F2691619C00EFDCF6 /* ContentView.swift */; };
+		18F925922691619E00EFDCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F925912691619E00EFDCF6 /* Assets.xcassets */; };
+		18F925952691619E00EFDCF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F925942691619E00EFDCF6 /* Preview Assets.xcassets */; };
+		18F925A02691619F00EFDCF6 /* frenchinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9259F2691619F00EFDCF6 /* frenchinatorTests.swift */; };
+		18F925AB2691619F00EFDCF6 /* frenchinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F925AA2691619F00EFDCF6 /* frenchinatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F9259C2691619F00EFDCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F925822691619C00EFDCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F925892691619C00EFDCF6;
+			remoteInfo = frenchinator;
+		};
+		18F925A72691619F00EFDCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F925822691619C00EFDCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F925892691619C00EFDCF6;
+			remoteInfo = frenchinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180D3B182693BD4300C89690 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		180D3B1A2693BEE300C89690 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		18F9258A2691619C00EFDCF6 /* frenchinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frenchinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F9258D2691619C00EFDCF6 /* frenchinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenchinatorApp.swift; sourceTree = "<group>"; };
+		18F9258F2691619C00EFDCF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18F925912691619E00EFDCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F925942691619E00EFDCF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18F925962691619E00EFDCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F9259B2691619F00EFDCF6 /* frenchinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frenchinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F9259F2691619F00EFDCF6 /* frenchinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenchinatorTests.swift; sourceTree = "<group>"; };
+		18F925A12691619F00EFDCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F925A62691619F00EFDCF6 /* frenchinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frenchinatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F925AA2691619F00EFDCF6 /* frenchinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenchinatorUITests.swift; sourceTree = "<group>"; };
+		18F925AC2691619F00EFDCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F925872691619C00EFDCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F925982691619F00EFDCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F925A32691619F00EFDCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F925812691619C00EFDCF6 = {
+			isa = PBXGroup;
+			children = (
+				18F9258C2691619C00EFDCF6 /* frenchinator */,
+				18F9259E2691619F00EFDCF6 /* frenchinatorTests */,
+				18F925A92691619F00EFDCF6 /* frenchinatorUITests */,
+				18F9258B2691619C00EFDCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F9258B2691619C00EFDCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F9258A2691619C00EFDCF6 /* frenchinator.app */,
+				18F9259B2691619F00EFDCF6 /* frenchinatorTests.xctest */,
+				18F925A62691619F00EFDCF6 /* frenchinatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F9258C2691619C00EFDCF6 /* frenchinator */ = {
+			isa = PBXGroup;
+			children = (
+				180D3B1A2693BEE300C89690 /* Roboto-Black.ttf */,
+				18F9258D2691619C00EFDCF6 /* frenchinatorApp.swift */,
+				18F9258F2691619C00EFDCF6 /* ContentView.swift */,
+				18F925912691619E00EFDCF6 /* Assets.xcassets */,
+				180D3B182693BD4300C89690 /* Roboto */,
+				18F925962691619E00EFDCF6 /* Info.plist */,
+				18F925932691619E00EFDCF6 /* Preview Content */,
+			);
+			path = frenchinator;
+			sourceTree = "<group>";
+		};
+		18F925932691619E00EFDCF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18F925942691619E00EFDCF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18F9259E2691619F00EFDCF6 /* frenchinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F9259F2691619F00EFDCF6 /* frenchinatorTests.swift */,
+				18F925A12691619F00EFDCF6 /* Info.plist */,
+			);
+			path = frenchinatorTests;
+			sourceTree = "<group>";
+		};
+		18F925A92691619F00EFDCF6 /* frenchinatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F925AA2691619F00EFDCF6 /* frenchinatorUITests.swift */,
+				18F925AC2691619F00EFDCF6 /* Info.plist */,
+			);
+			path = frenchinatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F925892691619C00EFDCF6 /* frenchinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F925AF2691619F00EFDCF6 /* Build configuration list for PBXNativeTarget "frenchinator" */;
+			buildPhases = (
+				18F925862691619C00EFDCF6 /* Sources */,
+				18F925872691619C00EFDCF6 /* Frameworks */,
+				18F925882691619C00EFDCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frenchinator;
+			productName = frenchinator;
+			productReference = 18F9258A2691619C00EFDCF6 /* frenchinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F9259A2691619F00EFDCF6 /* frenchinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F925B22691619F00EFDCF6 /* Build configuration list for PBXNativeTarget "frenchinatorTests" */;
+			buildPhases = (
+				18F925972691619F00EFDCF6 /* Sources */,
+				18F925982691619F00EFDCF6 /* Frameworks */,
+				18F925992691619F00EFDCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F9259D2691619F00EFDCF6 /* PBXTargetDependency */,
+			);
+			name = frenchinatorTests;
+			productName = frenchinatorTests;
+			productReference = 18F9259B2691619F00EFDCF6 /* frenchinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F925A52691619F00EFDCF6 /* frenchinatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F925B52691619F00EFDCF6 /* Build configuration list for PBXNativeTarget "frenchinatorUITests" */;
+			buildPhases = (
+				18F925A22691619F00EFDCF6 /* Sources */,
+				18F925A32691619F00EFDCF6 /* Frameworks */,
+				18F925A42691619F00EFDCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F925A82691619F00EFDCF6 /* PBXTargetDependency */,
+			);
+			name = frenchinatorUITests;
+			productName = frenchinatorUITests;
+			productReference = 18F925A62691619F00EFDCF6 /* frenchinatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F925822691619C00EFDCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18F925892691619C00EFDCF6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					18F9259A2691619F00EFDCF6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18F925892691619C00EFDCF6;
+					};
+					18F925A52691619F00EFDCF6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18F925892691619C00EFDCF6;
+					};
+				};
+			};
+			buildConfigurationList = 18F925852691619C00EFDCF6 /* Build configuration list for PBXProject "frenchinator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F925812691619C00EFDCF6;
+			productRefGroup = 18F9258B2691619C00EFDCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F925892691619C00EFDCF6 /* frenchinator */,
+				18F9259A2691619F00EFDCF6 /* frenchinatorTests */,
+				18F925A52691619F00EFDCF6 /* frenchinatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F925882691619C00EFDCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F925952691619E00EFDCF6 /* Preview Assets.xcassets in Resources */,
+				18F925922691619E00EFDCF6 /* Assets.xcassets in Resources */,
+				180D3B192693BD4300C89690 /* Roboto in Resources */,
+				180D3B1B2693BFDE00C89690 /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F925992691619F00EFDCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F925A42691619F00EFDCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F925862691619C00EFDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F925902691619C00EFDCF6 /* ContentView.swift in Sources */,
+				18F9258E2691619C00EFDCF6 /* frenchinatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F925972691619F00EFDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F925A02691619F00EFDCF6 /* frenchinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F925A22691619F00EFDCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F925AB2691619F00EFDCF6 /* frenchinatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F9259D2691619F00EFDCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F925892691619C00EFDCF6 /* frenchinator */;
+			targetProxy = 18F9259C2691619F00EFDCF6 /* PBXContainerItemProxy */;
+		};
+		18F925A82691619F00EFDCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F925892691619C00EFDCF6 /* frenchinator */;
+			targetProxy = 18F925A72691619F00EFDCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18F925AD2691619F00EFDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F925AE2691619F00EFDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F925B02691619F00EFDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"frenchinator/Preview Content\"";
+				DEVELOPMENT_TEAM = 29R6LLSJ26;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = frenchinator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.baloney.frenchinator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F925B12691619F00EFDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"frenchinator/Preview Content\"";
+				DEVELOPMENT_TEAM = 29R6LLSJ26;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = frenchinator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.baloney.frenchinator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F925B32691619F00EFDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29R6LLSJ26;
+				INFOPLIST_FILE = frenchinatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.baloney.frenchinatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frenchinator.app/frenchinator";
+			};
+			name = Debug;
+		};
+		18F925B42691619F00EFDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29R6LLSJ26;
+				INFOPLIST_FILE = frenchinatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.baloney.frenchinatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frenchinator.app/frenchinator";
+			};
+			name = Release;
+		};
+		18F925B62691619F00EFDCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29R6LLSJ26;
+				INFOPLIST_FILE = frenchinatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.baloney.frenchinatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = frenchinator;
+			};
+			name = Debug;
+		};
+		18F925B72691619F00EFDCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29R6LLSJ26;
+				INFOPLIST_FILE = frenchinatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.baloney.frenchinatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = frenchinator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F925852691619C00EFDCF6 /* Build configuration list for PBXProject "frenchinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F925AD2691619F00EFDCF6 /* Debug */,
+				18F925AE2691619F00EFDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F925AF2691619F00EFDCF6 /* Build configuration list for PBXNativeTarget "frenchinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F925B02691619F00EFDCF6 /* Debug */,
+				18F925B12691619F00EFDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F925B22691619F00EFDCF6 /* Build configuration list for PBXNativeTarget "frenchinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F925B32691619F00EFDCF6 /* Debug */,
+				18F925B42691619F00EFDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F925B52691619F00EFDCF6 /* Build configuration list for PBXNativeTarget "frenchinatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F925B62691619F00EFDCF6 /* Debug */,
+				18F925B72691619F00EFDCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F925822691619C00EFDCF6 /* Project object */;
+}

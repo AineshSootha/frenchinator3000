@@ -63,8 +63,19 @@ class Journal(Resource):
         return
     
     def post(self):
-        return
-
+        parser = reqparse.RequestParser() 
+        parser.add_argument('username', required=True)
+        parser.add_argument('lang', required=True)
+        args = parser.parse_args() 
+        response = self.createFile(args['username'], args['lang'])
+        
+        return response
+    def createFile(self, username,lang):
+        with open("template.txt", r) as fin:
+            with open(f"{username}.txt", "w") as fout:
+                pass
+            
+        
 api.add_resource(Translate, '/translate')
 api.add_resource(Journal, '/journal')
 
@@ -88,4 +99,4 @@ def main(translate, journal):
         journalUI()
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
