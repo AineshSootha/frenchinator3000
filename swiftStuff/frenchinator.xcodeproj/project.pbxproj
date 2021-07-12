@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		180D3B192693BD4300C89690 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 180D3B182693BD4300C89690 /* Roboto */; };
 		180D3B1B2693BFDE00C89690 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180D3B1A2693BEE300C89690 /* Roboto-Black.ttf */; };
+		18C288E7269BE6220077535C /* TranslatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C288E6269BE6220077535C /* TranslatedView.swift */; };
 		18F9258E2691619C00EFDCF6 /* frenchinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9258D2691619C00EFDCF6 /* frenchinatorApp.swift */; };
 		18F925902691619C00EFDCF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9258F2691619C00EFDCF6 /* ContentView.swift */; };
 		18F925922691619E00EFDCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F925912691619E00EFDCF6 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		180D3B182693BD4300C89690 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
 		180D3B1A2693BEE300C89690 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		18C288E6269BE6220077535C /* TranslatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatedView.swift; sourceTree = "<group>"; };
 		18F9258A2691619C00EFDCF6 /* frenchinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frenchinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9258D2691619C00EFDCF6 /* frenchinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenchinatorApp.swift; sourceTree = "<group>"; };
 		18F9258F2691619C00EFDCF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				180D3B1A2693BEE300C89690 /* Roboto-Black.ttf */,
 				18F9258D2691619C00EFDCF6 /* frenchinatorApp.swift */,
 				18F9258F2691619C00EFDCF6 /* ContentView.swift */,
+				18C288E6269BE6220077535C /* TranslatedView.swift */,
 				18F925912691619E00EFDCF6 /* Assets.xcassets */,
 				180D3B182693BD4300C89690 /* Roboto */,
 				18F925962691619E00EFDCF6 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C288E7269BE6220077535C /* TranslatedView.swift in Sources */,
 				18F925902691619C00EFDCF6 /* ContentView.swift in Sources */,
 				18F9258E2691619C00EFDCF6 /* frenchinatorApp.swift in Sources */,
 			);
